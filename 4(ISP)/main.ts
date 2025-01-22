@@ -10,9 +10,9 @@ import { Notification,
 const ses: any = {};
 
 export class NotificationService {
-              badsendEmail(notification: EmailNotification) {
+              badSendEmail(notification: EmailNotification) {
               const params = {
-                Source: 'no-reply@coderone.io',
+                Source: 'example@gmail.com',
                 Destination: {
                   ToAddresses: [notification.to],
                 },
